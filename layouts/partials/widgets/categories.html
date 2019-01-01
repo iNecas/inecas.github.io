@@ -1,0 +1,19 @@
+{{- $Site := .Site -}}
+{{- $TaxonomyPage := ( .Site.GetPage ( print "/categories" ) ) -}}
+{{- $Data := $TaxonomyPage.Data -}}
+<section class='widget widget-taxonomy_cloud sep-after'>
+    <header>
+        <h4 class='title widget-title'>
+           Categories
+        </h4>
+        <nav class="sidebar-nav">
+            {{- range $Data.Terms.Alphabetical -}}
+              {{- with $Site.GetPage ( print "/" $Data.Plural "/" .Term ) -}}
+                  <a href='{{ .RelPermalink }}'>
+                      {{- .Title -}}
+                  </a>
+              {{- end -}}
+            {{- end -}}
+        </nav>
+    </header>
+</section>
