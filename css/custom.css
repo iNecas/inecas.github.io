@@ -1,0 +1,11 @@
+.widget-about div.logo {
+    max-width: 10em;
+}
+
+main#content {
+    min-width: 740px;
+}
+h3.item-title div.categories, h3.item-title div.tags {
+    display: inline;
+    padding-left: 1em;
+}
