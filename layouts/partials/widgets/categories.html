@@ -4,16 +4,22 @@
 <section class='widget widget-taxonomy_cloud sep-after'>
     <header>
         <h4 class='title widget-title'>
-           Categories
+            Categories
         </h4>
-        <nav class="sidebar-nav">
-            {{- range $Data.Terms.Alphabetical -}}
-              {{- with $Site.GetPage ( print "/" $Data.Plural "/" .Term ) -}}
-                  <a href='{{ .RelPermalink }}'>
-                      {{- .Title -}}
-                  </a>
-              {{- end -}}
-            {{- end -}}
+        <nav class="list sidebar-nav">
+            <div class="container">
+                <ul>
+                    {{- range $Data.Terms.Alphabetical -}}
+                      {{- with $Site.GetPage ( print "/" $Data.Plural "/" .Term ) -}}
+                    <li class="list">
+                        <a href='{{ .RelPermalink }}'>
+                            {{- .Title -}}
+                        </a>
+                    </li>
+                      {{- end -}}
+                    {{- end -}}
+                </ul>
+            </div>
         </nav>
     </header>
 </section>

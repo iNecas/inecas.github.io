@@ -8,4 +8,5 @@ main#content {
 h3.item-title div.categories, h3.item-title div.tags {
     display: inline;
     padding-left: 1em;
+    white-space: nowrap;
 }
