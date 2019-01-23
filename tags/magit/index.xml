@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on iNecas&#39;s diary</title>
-    <link>https://inecas.github.io/posts/</link>
-    <description>Recent content in Posts on iNecas&#39;s diary</description>
+    <title>magit on iNecas&#39;s diary</title>
+    <link>https://inecas.github.io/tags/magit/</link>
+    <description>Recent content in magit on iNecas&#39;s diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 23 Jan 2019 23:21:43 +0100</lastBuildDate>
     
-	<atom:link href="https://inecas.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://inecas.github.io/tags/magit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       
       <guid>https://inecas.github.io/posts/enable-horizontal-movements-in-spacemacs-magit/</guid>
       <description>One of the most painful things after going Spacemacs full-time has been the unexpected behavior of Magit buffers in combination with evil bindings. Especially h and l not doing what I would expect.  After sitting in my TODO list for a while, I&amp;#39;ve finally got to finding a solution for this. Luckily evil-magit is supporting it natively, so it&amp;#39;s as simple as adding this to your .spacemacs.el. (setq evil-magit-want-horizontal-movement t)  Just note, that you need to do so before loading the evil-magit mode that is providing this capability.</description>
-    </item>
-    
-    <item>
-      <title>Week 2019 01</title>
-      <link>https://inecas.github.io/posts/week-2019-01/</link>
-      <pubDate>Sun, 06 Jan 2019 18:46:50 +0100</pubDate>
-      
-      <guid>https://inecas.github.io/posts/week-2019-01/</guid>
-      <description>Yes it&amp;#39;s true. I&amp;#39;ve started a blog again. Besides random howtos that I come across, every week I would like to add a journal entry, spent on anything that I&amp;#39;ve found interesting during the last week. If you don&amp;#39;t have anything better to do (I hope you have), feel free to continue reading. Blogging Technology   First of all, on the technology I&amp;#39;ve used for the blog itself.</description>
     </item>
     
   </channel>
