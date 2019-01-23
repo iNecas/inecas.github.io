@@ -1,0 +1,28 @@
+---
+title: "Enable Horizontal Vim Movements in Spacemacs Magit"
+date: 2019-01-23T23:21:43+01:00
+categories:
+  - quickfix
+tags:
+  - emacs
+  - spacemacs
+  - magit
+---
+
+One of the most painful things after going Spacemacs full-time has been the
+unexpected behavior of Magit buffers in combination with evil bindings.
+Especially =h= and =l= not doing what I would expect.
+
+After sitting in my TODO list for a while, I've finally got to finding a
+solution for this. Luckily [[https://github.com/emacs-evil/evil-magit][evil-magit]] is supporting it natively, so it's as
+simple as adding this to your =.spacemacs.el=.
+
+#+begin_src emacs
+(setq evil-magit-want-horizontal-movement t)
+#+end_src
+
+Just note, that you need to do so /before/ loading the =evil-magit= mode that is
+providing this capability. Therefore, /don't use/ =with-eval-after-load= as I was
+when trying this for the first time.
+
+In you would like to leave some comments, please do so [[https://github.com/iNecas/inecas.github.io/pull/1][here]].
