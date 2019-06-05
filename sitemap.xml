@@ -8,23 +8,14 @@
   </url>
   
   <url>
+    <loc>https://inecas.github.io/categories/</loc>
+    <lastmod>2019-01-23T23:21:43+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://inecas.github.io/posts/enable-horizontal-movements-in-spacemacs-magit/</loc>
     <lastmod>2019-01-23T23:21:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://inecas.github.io/posts/week-2019-01/</loc>
-    <lastmod>2019-01-06T18:46:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://inecas.github.io/authors/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://inecas.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -34,24 +25,14 @@
   </url>
   
   <url>
-    <loc>https://inecas.github.io/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://inecas.github.io/tags/</loc>
+    <lastmod>2019-01-23T23:21:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://inecas.github.io/tags/emacs/</loc>
     <lastmod>2019-01-23T23:21:43+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://inecas.github.io/categories/journal/</loc>
-    <lastmod>2019-01-06T18:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,6 +51,16 @@
   <url>
     <loc>https://inecas.github.io/tags/spacemacs/</loc>
     <lastmod>2019-01-23T23:21:43+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://inecas.github.io/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://inecas.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
